@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="button-bar">
+  <ul class="${1:[radius round]} button-group">
+    <li><a href="${3:#}" class="button">${2:Button 1}</a></li>
+    <li><a href="${5:#}" class="button">${4:Button 2}</a></li>
+    <li><a href="${7:#}" class="button">${6:Button 3}</a></li>
+  </ul>
+  <ul class="${8:[radius round]} button-group">
+    <li><a href="${8:#}" class="button">${9:Button 1}</a></li>
+    <li><a href="${10:#}" class="button">${11:Button 2}</a></li>
+    <li><a href="${14:#}" class="button">${13:Button 3}</a></li>
+  </ul>
+</div>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-btn-bar</tabTrigger>
+	<description>Foundation 5 - Button Bar</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

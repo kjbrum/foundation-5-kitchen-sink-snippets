@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" ${1:data-options="${2:align:[top left down right];} ${3:is_hover:true}"} data-dropdown="${4:drop}" ${5:class="${6:button}"}>${7:Link Dropdown &raquo;}</a>
+<ul id="${4:drop}" class="${8:[tiny small medium large content]} f-dropdown" data-dropdown-content>
+  ${9:<li><a href="${11:#}">${10:Link 1}</a></li>
+  <li><a href="${13:#}">${12:Link 2}</a></li>
+  <li><a href="${15:#}">${14:Link 3}</a></li>}
+  ${16:<p>${17:This is used if it is a content dropdown}</p>}
+</ul>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-dropdown</tabTrigger>
+	<description>Foundation 5 - Dropdown</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

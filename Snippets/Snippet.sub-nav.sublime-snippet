@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<dl class="sub-nav">
+  <dt>${1:Filter:}</dt>
+  <dd class="active"><a href="${3:#}">${2:All}</a></dd>
+  <dd><a href="${5:#}">${4:Active}</a></dd>
+  <dd><a href="${7:#}">${6:Pending}</a></dd>
+  <dd><a href="${9:#}">${8:Suspended}</a></dd>
+</dl>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-sub-nav</tabTrigger>
+	<description>Foundation 5 - Sub Nav</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

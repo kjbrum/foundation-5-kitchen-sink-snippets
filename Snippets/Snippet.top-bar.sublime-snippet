@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="${2:#}">${1:Site Name}</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">${3:Menu}</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="${5:#}">${4:Right Button Active}</a></li>
+      <li class="has-dropdown">
+        <a href="${7:#}">${6:Right Button with Dropdown}</a>
+        <ul class="dropdown">
+          <li><a href="${9:#}">${8:First link in dropdown}</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="${11:#}">${10:Left Nav Button}</a></li>
+    </ul>
+  </section>
+</nav>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-top-bar</tabTrigger>
+	<description>Foundation 5 - Top Bar</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

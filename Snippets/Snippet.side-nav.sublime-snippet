@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<ul class="side-nav">
+  <li class="active"><a href="${2:#}">${1:Link 1}</a></li>
+  <li><a href="${4:#}">${3:Link 2}</a></li>
+  <li><a href="${6:#}">${5:Link 3}</a></li>
+  <li class="divider"></li>
+  <li><a href="${8:#}">${7:Link 4}</a></li>
+  <li><a href="${10:#}">${9:Link 5}</a></li>
+</ul>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-side-nav</tabTrigger>
+	<description>Foundation 5 - Side Nav</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

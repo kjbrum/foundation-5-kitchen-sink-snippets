@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="flex-video ${1:widescreen}">
+  <iframe width="${2:500}" height="${3:250}" src="${4:Video Source}" frameborder="0" allowfullscreen></iframe>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-flex-video</tabTrigger>
+	<description>Foundation 5 - Flex Video</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

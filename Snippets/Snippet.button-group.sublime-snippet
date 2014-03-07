@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<ul class="${1:[radius round]} button-group">
+  <li><a href="${3:#}" class="button">${2:Button 1}</a></li>
+  <li><a href="${5:#}" class="button">${4:Button 2}</a></li>
+  <li><a href="${7:#}" class="button">${6:Button 3}</a></li>
+</ul>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-btn-group</tabTrigger>
+	<description>Foundation 5 - Button Group</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

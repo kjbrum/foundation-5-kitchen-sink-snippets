@@ -1,0 +1,73 @@
+<snippet>
+	<content><![CDATA[
+<form>
+  <div class="row">
+    <div class="large-2 columns">
+      <label for="right-inline" class="right inline">Right Inline Label</label>
+    </div>
+    <div class="large-10 columns">
+      <input type="text" id="right-inline" placeholder="large-9.columns" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-4 columns">
+      <label>Input Label
+        <input type="text" placeholder="large-4.columns" />
+      </label>
+    </div>
+    <div class="large-4 columns">
+      <label>Input Label
+        <input type="text" placeholder="large-4.columns" />
+      </label>
+    </div>
+    <div class="large-4 columns">
+      <div class="row collapse">
+        <label for="postfix">Input Label</label>
+        <div class="small-9 columns">
+          <input type="text" id="postfix" placeholder="small-9.columns" />
+        </div>
+        <div class="small-3 columns">
+          <span class="postfix">.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Select Box
+        <select>
+          <option value="one">One</option>
+          <option value="two">Two</option>
+          <option value="three">Three</option>
+          <option value="four">Four</option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Choose Your Favorite</label>
+      <input type="radio" name="radio" value="true" id="true"><label for="true">True</label>
+      <input type="radio" name="radio" value="false" id="false"><label for="false">False</label>
+    </div>
+    <div class="large-6 columns">
+      <label>Check these out</label>
+      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Textarea Label
+        <textarea placeholder="large-12.columns"></textarea>
+      </label>
+    </div>
+  </div>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-form</tabTrigger>
+	<description>Foundation 5 - Form</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<a class="th ${1:[radius]}" href="${2:http://dummyimage.com/1000x400/4d494d/686a82.gif&text=Large+Thumb}">
+  <img src="${3:http://dummyimage.com/100x100/4d494d/686a82.gif&text=Thumb}">
+</a>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-thumb</tabTrigger>
+	<description>Foundation 5 - Thumbnail</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

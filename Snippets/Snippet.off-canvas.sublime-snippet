@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">${1:Header Title}</h1>
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>${2:First Left Header}</label></li>
+        <li><a href="${4:#}">${3:First Sub-Link}</a></li>
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>${5:First Right Header}</label></li>
+        <li><a href="${7:#}">${6:First Sub-Link}</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      ${0:Main Content Here}
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-off-canvas</tabTrigger>
+	<description>Foundation 5 - Off-canvas</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

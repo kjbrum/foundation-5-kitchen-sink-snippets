@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<a href="${5:#}" class="${1:[tiny small large]} ${2:[secondary success alert]} ${3:[radius round]} button">${4:Button}</a>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-btn</tabTrigger>
+	<description>Foundation 5 - Button</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

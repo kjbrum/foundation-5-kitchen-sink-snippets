@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<dl class="tabs ${1:vertical}" data-tab>
+  ${2:<dd class="active"><a href="#${3:panel1-1}">${4:Tab 1}</a></dd>}
+  ${5:<dd><a href="#${6:panel1-2}">${7:Tab 2}</a></dd>}
+  ${8:<dd><a href="#${9:panel1-3}">${10:Tab 3}</a></dd>}
+</dl>
+<div class="tabs-content ${1:vertical}">
+  ${11:<div class="content active" id="${3:panel1-1}">
+    ${12:<p>First panel content goes here...</p>}
+  </div>}
+  ${13:<div class="content" id="${6:panel1-2}">
+    ${14:<p>Second panel content goes here...</p>}
+  </div>}
+  ${15:<div class="content" id="${9:panel1-3}">
+    ${16:<p>Third panel content goes here...</p>}
+  </div>}
+</div>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-tabs</tabTrigger>
+	<description>Foundation 5 - Tabs</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

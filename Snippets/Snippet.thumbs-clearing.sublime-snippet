@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<ul class="clearing-thumbs" data-clearing>
+  <li><a href="${1:http://dummyimage.com/1000x400/4d494d/686a82.gif&text=Large Thumb}"><img data-caption="${2:Caption 1}" src="${3:http://dummyimage.com/100x100/4d494d/686a82.gif&text=Thumb}"></a></li>
+  <li><a href="${4:http://dummyimage.com/1000x400/4d494d/68aa82.gif&text=Large Thumb}"><img data-caption="${5:Caption 2}" src="${6:http://dummyimage.com/100x100/4d494d/68aa82.gif&text=Thumb}"></a></li>
+  <li><a href="${7:http://dummyimage.com/1000x400/4d494d/aa6a82.gif&text=Large Thumb}"><img data-caption="${8:Caption 3}" src="${9:http://dummyimage.com/100x100/4d494d/aa6a82.gif&text=Thumb}"></a></li>
+</ul>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-clearing</tabTrigger>
+	<description>Foundation 5 - Clearing Thumbnails</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="progress ${1:[small-# large-#]} ${2:[secondary alert success]} ${3:[radius round]}">
+  <span class="meter" ${4:style="width: ${5:[1 - 100]}%"}></span>
+</div>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-progress-bar</tabTrigger>
+	<description>Foundation 5 - Progress Bar</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<span class="${1:[success alert secondary]} ${2:[round radius]} label">${3:Label}</span>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-label</tabTrigger>
+	<description>Foundation 5 - Label</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

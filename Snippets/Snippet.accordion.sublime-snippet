@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+<dl class="accordion" data-accordion>
+  <dd>
+    <a href="#${1:panel1}">${2:Accordion 1}</a>
+    <div id="${1:panel1}" class="content active">
+      ${3:Panel 1 content goes here.}
+    </div>
+  </dd>
+  <dd>
+    <a href="#${4:panel2}">${5:Accordion 2}</a>
+    <div id="${4:panel2}" class="content">
+      ${6:Panel 2 content goes here.}
+    </div>
+  </dd>
+  <dd>
+    <a href="#${7:panel3}">${8:Accordion 3}</a>
+    <div id="${7:panel3}" class="content">
+      ${9:Panel 3 content goes here.}
+    </div>
+  </dd>
+</dl>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zf-accordion</tabTrigger>
+	<description>Foundation 5 - Accordion</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
