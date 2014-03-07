@@ -209,5 +209,127 @@ A collection of snippets for easily creating ZURB Foundation 5 elements.
       <li class="arrow"><a href="">&raquo;</a></li>
     </ul>
 
+## Forms
+
+### `zf-form` - create a form
+
+    <form>
+      <div class="row">
+        <div class="large-2 columns">
+          <label for="right-inline" class="right inline">Right Inline Label</label>
+        </div>
+        <div class="large-10 columns">
+          <input type="text" id="right-inline" placeholder="large-9.columns" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-4 columns">
+          <label>Input Label
+            <input type="text" placeholder="large-4.columns" />
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <label>Input Label
+            <input type="text" placeholder="large-4.columns" />
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <div class="row collapse">
+            <label for="postfix">Input Label</label>
+            <div class="small-9 columns">
+              <input type="text" id="postfix" placeholder="small-9.columns" />
+            </div>
+            <div class="small-3 columns">
+              <span class="postfix">.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Select Box
+            <select>
+              <option value="one">One</option>
+              <option value="two">Two</option>
+              <option value="three">Three</option>
+              <option value="four">Four</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-6 columns">
+          <label>Choose Your Favorite</label>
+          <input type="radio" name="radio" value="true" id="true"><label for="true">True</label>
+          <input type="radio" name="radio" value="false" id="false"><label for="false">False</label>
+        </div>
+        <div class="large-6 columns">
+          <label>Check these out</label>
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Textarea Label
+            <textarea placeholder="large-12.columns"></textarea>
+          </label>
+        </div>
+      </div>
+    </form>
+
+### `zf-slider` - create a slider
+
+    <div class="range-slider" data-slider data-options="[step:5; start:1; end:20; initial: 5]">
+      <span class="range-slider-handle"></span>
+      <span class="range-slider-active-segment"></span>
+      <input type="hidden">
+    </div>
+
+## Media
+
+### `zf-orbit` - create an orbit slider
+
+    <ul class="example-orbit" data-orbit>
+      <li>
+        <img src="http://dummyimage.com/1000x400/4d494d/686a82.gif&text=Slide+1" alt="slide 1" />
+        <div class="orbit-caption">
+          Caption One.
+        </div>
+      </li>
+      <li>
+        <img src="http://dummyimage.com/1000x400/4d494d/68aa82.gif&text=Slide+2" alt="slide 2" />
+        <div class="orbit-caption">
+          Caption Two.
+        </div>
+      </li>
+      <li>
+        <img src="http://dummyimage.com/1000x400/4d494d/aa6a82.gif&text=Slide+3" alt="slide 3" />
+        <div class="orbit-caption">
+          Caption Three.
+        </div>
+      </li>
+    </ul>
+
+### `zf-thumb` - create a thumbnail
+
+    <a class="th [radius]" href="http://dummyimage.com/1000x400/4d494d/686a82.gif&text=Large+Thumb">
+      <img src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=Thumb">
+    </a>
+
+### `zf-clearing` - create a clearing thumbnail list
+
+    <ul class="clearing-thumbs" data-clearing>
+      <li><a href="http://dummyimage.com/1000x400/4d494d/686a82.gif&text=Large Thumb"><img data-caption="Caption 1" src="http://dummyimage.com/100x100/4d494d/686a82.gif&text=Thumb"></a></li>
+      <li><a href="http://dummyimage.com/1000x400/4d494d/68aa82.gif&text=Large Thumb"><img data-caption="Caption 2" src="http://dummyimage.com/100x100/4d494d/68aa82.gif&text=Thumb"></a></li>
+      <li><a href="http://dummyimage.com/1000x400/4d494d/aa6a82.gif&text=Large Thumb"><img data-caption="Caption 3" src="http://dummyimage.com/100x100/4d494d/aa6a82.gif&text=Thumb"></a></li>
+    </ul>
+
+### `zf-flex-video` - create a flex video
+
+    <div class="flex-video widescreen">
+      <iframe width="500" height="250" src="Video Source" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 ## Credit
 Inspiration from - https://github.com/zurb/foundation-5-sublime-snippets
