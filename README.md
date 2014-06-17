@@ -331,5 +331,15 @@ A collection of snippets for easily creating ZURB Foundation 5 elements.
       <iframe width="500" height="250" src="Video Source" frameborder="0" allowfullscreen></iframe>
     </div>
 
+### `zf-reveal` - create a flex video
+
+    <a href="#" data-reveal-id="myModal" class="button">Modal Button</a>
+    <div id="myModal" class="reveal-modal" data-reveal>
+      <h2>This is the Heading</h2>
+      <p class="lead">This is the lead</p>
+      <p>This is the paragraph</p>
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+
 ## Credit
 Inspiration from - https://github.com/zurb/foundation-5-sublime-snippets
