@@ -28,12 +28,12 @@ A collection of snippets for easily creating ZURB Foundation 5 elements.
 
 ### `zf-col` - create a column
 
-    <div class="small-[1-12] large-[1-12] column">
+    <div class="small-[1-12] medium-[1-12] large-[1-12] column">
     </div>
 
 ### `zf-block-grid` - create a container and row
 
-    <ul class="small-block-grid-[1-12] large-block-grid-[1-12]">
+    <ul class="small-block-grid-[1-12] medium-block-grid-[1-12] large-block-grid-[1-12]">
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>

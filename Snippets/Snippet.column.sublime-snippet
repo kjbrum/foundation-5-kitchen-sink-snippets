@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="small-${1:1-12} large-${2:1-12} column">
+<div class="small-${1:1-12} medium-${2:1-12} large-${3:1-12} column">
 	$0
 </div>
 ]]></content>
