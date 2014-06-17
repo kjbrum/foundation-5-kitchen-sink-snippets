@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
+<a href="#" data-reveal-id="${1:myModal}" class="button">${2:Modal Button}</a>
 <div id="${1:myModal}" class="reveal-modal" data-reveal>
-  ${2:<h2>${3:This is the Heading}</h2>}
-  ${4:<p class="lead">${5:This is the lead}</p>}
-  ${6:<p>${7:This is the paragraph}</p>}
+  ${3:<h2>This is the Heading</h2>
+  <p class="lead">This is the lead</p>
+  <p>This is the paragraph</p>}$0
   <a class="close-reveal-modal">&#215;</a>
 </div>
-<a href="#" class="${8:[tiny small large]} ${9:[secondary success alert]} ${10:[radius round]} button">${11:Modal Button}</a>$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>zf-reveal</tabTrigger>
